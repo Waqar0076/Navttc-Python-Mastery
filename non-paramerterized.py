@@ -4,10 +4,9 @@ def greet():
     print(f"Hello! we're learning Python....")
 
 # functions calling
-# greet()
-# print("Aptech learning")
-# greet()
-
+greet()
+print("Aptech learning")
+greet()
 
 count = 0
 
@@ -25,14 +24,13 @@ def print_count():
     print(f"Count value is {count}")
 
 
-# count_increment()
-# count_increment()
-# print_count()
-# count_increment()
-# print_count()
-# reset_count()
-# print_count()
-
+count_increment()
+count_increment()
+print_count()
+count_increment()
+print_count()
+reset_count()
+print_count()
 
 from datetime import date
 
@@ -41,7 +39,6 @@ def current_date():
     print(f"Today's date {today}")
 
 # current_date()
-
 
 def add_numbers():
     num1 = 10
